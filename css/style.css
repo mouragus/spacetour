@@ -11,30 +11,29 @@ body{
     color: #444;
 }
 
-.conteiner{
+.container{
     max-width: 1128px;
 }
 
-.conteiner > a{
+.container a{
     color: #00ccff;
-    font-size: 12px;
-    
-}
-
-.conteiner a:link{
+    font-size: 12px; 
     text-decoration: none;
 }
 
-.conteiner > p{
+/* .conteiner a:link{
+    text-decoration: none;
+} */
+
+.container > p{
     font-size: 20px;
 }
 
-.conteiner a:hover {
+.container a:hover {
 	text-decoration: underline;
-	color: #f00
 }
 
-.css img{
+img{
     max-width: 100%;
 }
 
@@ -74,13 +73,13 @@ body{
 }
 
 .caixa{
-    width: 42.5px;
+    width: 42.5%;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 48px;
     padding-right: 48px;
     position: absolute;
-    position: top 48px;
+    top: 48px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
