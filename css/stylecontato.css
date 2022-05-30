@@ -5,6 +5,21 @@
     font-size: 16px;
 }
 
+body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+
+.container{
+    max-width: 1128px;
+}
+
+.container a{
+    color: #00ccff;
+    font-size: 12px; 
+    text-decoration: none;
+}
 
 .cadastrarContato{
     display: flex;
@@ -13,11 +28,10 @@
 .register{
     padding: 12%;
     
-
 }
 
 .fieldset{
-    width: 30%;
+    width: 40%;
     background-color: rgb(189, 182, 178);
     margin-left: 35%;
 }
@@ -31,13 +45,33 @@
     margin: 20px;
 }
 
-.register > div > :nth-child(1){
+.register > div > label{
     font-size: 20px;
 }
 
+
 input[type=text] {
     width: 100%;
-} 
+}
+
+/* .container a:link{
+    text-decoration: none;
+} */
+
+p{
+    font-size: 20px;
+}
+
+.container a:hover {
+	text-decoration: underline;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 48px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .menu{
     float: right;
@@ -49,11 +83,29 @@ input[type=text] {
     font-size: 14px;
     margin-left: 24px;
     margin-top: 12px;
-    margin-right: 24px;
     list-style: none;
 }
 
 .menu li:link{
     font-size: 20px;
     color: #999;
+}
+
+.rodape{
+    width: 100%;
+    margin-bottom: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+.rodape > p{
+    margin-bottom: 0;
+}
+
+.rodape > small{
+    font-size: 18px;
+}
+
+footer > link{
+    text-size-adjust: 1;
 }
