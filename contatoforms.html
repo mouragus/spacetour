@@ -38,18 +38,21 @@
                             <input type="text" name="nmClienteLastName" id="nmClienteLastName" required placeholder="Insira seu sobrenome" oninvalid="this.setCustomValidity('Favor preencher o campo')">
                         </div>
                         <div>
+                            <label for="email">E-mail</label><br>
+                            <input type="email" name="dsEmailCliente" id="dsEmailCliente" required placeholder="Insira seu E-mail">
+                        </div>
+                        <div>
                             <label for="cpf">CPF:</label><br>
                             <input type="text" name="nrCPF" id="nrCPF" required placeholder="Insira seu CPF" oninvalid="this.setCustomValidity('Favor preencher o campo')">
                         </div>
                         <div>
                             <label for="genero">Gênero:</label><br>
-                            <input type="radio" name="gen" id="masculino" value="Masculino">
+                            <input type="radio" name="genero-user" id="masculino" value="Masculino" required>
                             <label for="genMasc">Masculino</label><br>
-                            <input type="radio" name="gen" id="feminino" value="Feminino">
+                            <input type="radio" name="genero-user" id="feminino" value="Feminino" required>
                             <label for="genFem">Feminino</label><br>
-                            <input type="radio" name="gen" id="outros" value="Outros">
-                            <label for="genFem">Outros</label>
-
+                            <input type="radio" name="genero-user" id="outros" value="Outros" required>
+                            <label for="genFem">Outro</label>
                         </div>
                         <div>
                             <label for="dtNascimento">Data Nascimento:</label><br>

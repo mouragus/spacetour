@@ -93,6 +93,7 @@ p{
 
 .rodape{
     width: 100%;
+    margin-top: 15px;
     margin-bottom: 30px;
     float: left;
     font-size: 30px;
@@ -107,5 +108,5 @@ p{
 }
 
 footer > link{
-    text-size-adjust: 1;
+    font-size: 1;
 }
