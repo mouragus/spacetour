@@ -4,7 +4,6 @@ const campos = formulario.querySelectorAll('input[required]')
 
 botaoSubmit.addEventListener("click", ()=>{
     
-    let formValido = false;
     for (let i = 0; i < campos.length; i++) {
         const campoAtual = campos[i];
 
@@ -30,15 +29,10 @@ botaoSubmit.addEventListener("click", ()=>{
                 return
             }
         }
-
-        
     }
 
-    console.log(campos)
-    console.log(formulario)
-
     // REALIZANDO O SUBMIT
-
+    formulario.submit()
 })
 
 //Sempre que um campo for preenchido, a borda vermelha é removida
