@@ -52,7 +52,7 @@ img{
     float: right;
 }
 
-.menu > li{
+.menu > ul > li{
     float: right;
     display: inline;
     font-size: 14px;
@@ -61,7 +61,8 @@ img{
     list-style: none;
 }
 
-.menu li:link{
+
+.menu > ul > li > a{
     font-size: 20px;
     color: #999;
 }

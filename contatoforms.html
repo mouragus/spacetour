@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/stylecontato.css">
 
     <script src="./js/script.js" defer></script>
-    
+
     <title>SpaceTour</title>
 </head>
+
 <body>
     <div class="container">
         <header class="cabecalho">
             <img src="./img/logo-spacetours.png" alt="logo" class="logo">
             <nav class="menu">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Pacotes</a></li>
-                <li><a href="./contatoforms.html" class="contato">Contato</a></li>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Pacotes</a></li>
+                    <li><a href="./contatoforms.html" class="contato">Contato</a></li>
+                </ul>
             </nav>
         </header>
-        
+
         <section>
             <form class="cadastrarContato" action="index.html" method="get">
 
@@ -31,39 +36,44 @@
                     <div class="register">
                         <div>
                             <label for="fName">Nome:</label><br>
-                            <input type="text" name="nmClienteFirstName" id="nmClienteFirstName" required placeholder="Insira seu nome" oninvalid="this.setCustomValidity('Favor preencher o campo')">
+                            <input type="text" name="nmClienteFirstName" id="nmClienteFirstName" required
+                                placeholder="Insira seu nome">
                         </div>
                         <div>
                             <label for="lName">Sobrenome:</label><br>
-                            <input type="text" name="nmClienteLastName" id="nmClienteLastName" required placeholder="Insira seu sobrenome" oninvalid="this.setCustomValidity('Favor preencher o campo')">
+                            <input type="text" name="nmClienteLastName" id="nmClienteLastName" required
+                                placeholder="Insira seu sobrenome">
                         </div>
                         <div>
                             <label for="email">E-mail</label><br>
-                            <input type="email" name="dsEmailCliente" id="dsEmailCliente" required placeholder="Insira seu E-mail" oninvalid="this.setCustomValidity('Favor preencher o campo')">
+                            <input type="email" name="dsEmailCliente" id="dsEmailCliente" required
+                                placeholder="Insira seu E-mail">
                         </div>
                         <div>
                             <label for="cpf">CPF:</label><br>
-                            <input type="text" name="nrCPF" id="nrCPF" required placeholder="Insira seu CPF" oninvalid="this.setCustomValidity('Favor preencher o campo')">
+                            <input type="text" name="nrCPF" id="nrCPF" required placeholder="Insira seu CPF">
                         </div>
                         <div>
-                            <label for="genero">Gênero:</label><br>
+                            <label>Gênero:</label><br>
                             <input type="radio" name="genero-user" id="masculino" value="Masculino" required>
-                            <label for="genMasc">Masculino</label><br>
+                            <label for="masculino">Masculino</label><br>
                             <input type="radio" name="genero-user" id="feminino" value="Feminino" required>
-                            <label for="genFem">Feminino</label><br>
+                            <label for="feminino">Feminino</label><br>
                             <input type="radio" name="genero-user" id="outros" value="Outros" required>
-                            <label for="genFem">Outro</label>
+                            <label for="outros">Outro</label>
                         </div>
                         <div>
                             <label for="dtNascimento">Data Nascimento:</label><br>
-                            <input type="date" name="dtNascimento" id="dtNascimento" required placeholder="Insira sua data de nascimento" oninvalid="this.setCustomValidity('Favor preencher o campo')">
+                            <input type="date" name="dtNascimento" id="dtNascimento" required
+                                placeholder="Insira sua data de nascimento">
                         </div>
                         <div>
                             <label for="dsMotivacao">Qual a sua motivação para a viagem?:</label><br>
-                            <input type="text" name="dsMotivacao" id="dsMotivacao" required placeholder="Insira a motivação" oninvalid="this.setCustomValidity('Favor preencher o campo')">
+                            <input type="text" name="dsMotivacao" id="dsMotivacao" required
+                                placeholder="Insira a motivação">
                         </div>
                         <div>
-                            <input type="button" id="btnEnviar" value="Enviar">
+                            <button id="btnEnviar">ENVIAR</button>
                         </div>
                     </div>
                 </fieldset>
@@ -75,6 +85,7 @@
             <small class="creditos">Criado por <a href="#">uNext</a></small>
         </footer>
 
-    </div>   
+    </div>
 </body>
+
 </html>
